@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>More Fun Pools - Home</title>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    
+    
+    <!-- added "style.css" to meet Criteria Requirements  -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- prove that more than one CSS file can be attached -->
+    <link href="more_fun_pools.css" rel="stylesheet" />
+
+    <link rel="icon" href="./images/cash.ico" type="image/x-icon" />
+
+    <style>
+      h4 {
+        font-size: 1em;
+        /* Adjust size */
+        margin-top: 0em;
+        /* Reduce space above */
+        margin-bottom: 0em;
+        /* Reduce space below */
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="content">
+          <h1
+            style="
+              font-family: sans-serif, Calibri;
+              color: red;
+              text-align: center;
+            "
+          >
+            More Fun Pools
+          </h1>
+        </div>
+      </header>
+
+      <nav class="vertical-nav">
+        <!--
+Italicize all links
+Remove the default underline from all links
+-->
+<!-- <input type="text" placeholder="Enter your name"> -->
+
+   <!-- <div><p> "vv"</div></p> -->
+   
+
+
+
+
+        <a href="index.html" style="font-style: italic; text-decoration: none">
+          <img src="./images/p.ico" alt="Pool" width="11" height="11" />Home</a>
+
+
+        <a
+          href="resources.html"
+          style="font-style: italic; text-decoration: none"
+          ><img
+            src="./images/p.ico"
+            alt="Pool"
+            width="11"
+            height="11"
+          />Resources</a
+        >
+
+        <a href="contact.html" style="font-style: italic; text-decoration: none"
+          ><img
+            src="./images/p.ico"
+            alt="Pool"
+            width="11"
+            height="11"
+          />Contact</a
+        >
+
+        <a href="links.html" style="font-style: italic; text-decoration: none"
+          ><img
+            src="./images/p.ico"
+            alt="Pool"
+            width="11"
+            height="11"
+          />Links</a
+        >
+
+        <a href="gallery.html" style="font-style: italic; text-decoration: none"
+          ><img
+            src="./images/p.ico"
+            alt="Pool"
+            width="11"
+            height="11"
+          />Gallery</a
+        >
+
+        <a
+          href="staffdirectory.html"
+          style="font-style: italic; text-decoration: none"
+          ><img src="./images/p.ico" alt="Pool" width="11" height="11" />Staff
+          Directory</a
+        >
+
+        <a
+          href="customerform.html"
+          style="font-style: italic; text-decoration: none"
+          ><img
+            src="./images/p.ico"
+            alt="Pool"
+            width="11"
+            height="11"
+          />Customer Form</a
+        >
+
+        <a href="show.html" style="font-style: italic; text-decoration: none"
+          ><img src="./images/p.ico" alt="Pool" width="11" height="11" />Slide
+          Show</a
+        >
+      </nav>
+      <main>
+        <br>
+
+        <h2 id="myrandom" style="font-family: sans-serif, Calibri; color: red">
+          New Pool Design
+        </h2>
+
+        <p>
+          <span class="company">More Fun Pools</span> will take your home&#39;s
+          back yard fun to the next level. We offer a comprehensive range of
+          design and services. Let us wet your appetite for more fun!
+        </p>
+
+        <h3 style="font-family: sans-serif, Calibri; color: red">
+          Your New Pool Safety Design Is Our Primary Goal
+        </h3>
+        <p>
+          <b>More Fun Pools</b> will ensure all current safety rules and
+          regulations <br>
+          are adhered to in all phases of design , construction , and on going
+          service.
+        </p>
+
+        <br>
+        <div class="flex-partition">
+          <div>
+            <h4>A Short List Of Our Services</h4>
+            <ul>
+              <li>Pool Design</li>
+              <li>Construction</li>
+              <li>Maintenance</li>
+              <!-- see css file for code to change text color                                                        -->
+              <!-- see use <span></span> to only color the text and not the whole line          -->
+              <!-- google search - html make background color only for the text not the line -->
+              <!-- see css file for code to keep the bullet color 'black'                                         -->
+              <li class="feature">
+                <span style="background-color: #808080">Fun Additions</span>
+              </li>
+              <li class="feature">
+                <span style="background-color: #808080">24 Hour Service</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="media-container" style="margin-left: 24px">
+            <div class="video-box">
+              <p class="p1">On The Road Again With No Hands</p>
+              <iframe
+                width="200"
+                height="112"
+                allowfullscreen
+                src="https://www.youtube.com/embed/DYBJx8AkKpA?si=H67Mr33K35mIbGqC"
+                title="YouTube video player"
+                frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+
+            <!-- Audio box  and paragraph reformat-->
+            <div class="audio-box">
+              <p class="p1">&nbsp;On The Road Again</p>
+              <audio controls>
+                <source
+                  src="./media/Canned Heat On The Road Again.mp3"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+        <!-- moved h2 and fun for everyone down below -->
+        <h2 style="font-family: sans-serif, Calibri; color: red">
+          Meeting Your Fun Expectations
+        </h2>
+
+        <p>
+          <b
+            >Our design experts will create a pool environment to promote more
+            fun for everyone.</b
+          >
+        </p>
+      </main>
+
+      <!-- css make the body the same size for all pages -->
+
+      <footer>
+        Copyright &copy; 2026 Tio CA$H
+        <br>
+        <a href="mailto:cash_fields@yahoo.com" target="_blank"
+          >cash_fields@yahoo.com</a
+        >
+        <span style="float: right"
+          >Last updated on: <span id="last-updated"></span
+        ></span>
+      </footer>
+    </div>
+
+    <script>
+      // Target the specific span in the footer
+      const footerUpdate = document.getElementById("last-updated");
+      // Set the text to the document's last modified date
+      footerUpdate.textContent = document.lastModified;
+    </script>
+
+    <div
+      id="myElement"
+      data-array='["A leading installer - New Pool Design", "Great service - New Pool Design", "Guaranteed quality - New Pool Design", "Meeting your needs - New Pool Design", "24 Hour Service - New Pool Design"]'
+    ></div>
+    <script>
+
+      window.onload = function () {
+
+        let randomNum = Math.floor(Math.random() * 5);
+        let name = prompt("What is your name?");
+        alert("Thank you " + name + " for visiting More Fun Pools.\r\n\r\nWe hope we can help you to have more fun .\r\n The magic number is : " + randomNum);
+
+
+        //<!-- alert (randomNum + "---" + arr[randomNum]);  -->
+        //< !--alert(document.getElementById("myrandom").textContent); -->
+
+
+
+
+        const el = document.getElementById('myElement');
+        const arr = JSON.parse(el.dataset.array);
+
+
+        const myHeading = document.querySelector("h2");
+
+
+        document.getElementById("myrandom").textContent = arr[randomNum];
+
+      }
+    </script>
+  </body>
+</html>
+
+<!--
+
+T fix
+
+
+For Question #2 - Getting the Audio & Video side by side to the
+unordered list.  This is a concept in Chapter 07 called flex display
+and it ties to your question about grid layout earlier.
+
+I've played around with Lab Work A and made a couple of adjustments
+to styles.css and applied a flex display to the ordered list and
+commented out the fixed positioning and placement for your
+media-container.
+
+In Styles.css - look at lines 238-243 (comments out fixed
+positioning and top & right placement) and lines 305-310 (creates a
+flex partition for the unordered list).
+
+In index.html - line 88 calls the divider class flex partition,
+creates a divider for unordered list line 89 and closing line 102.
+
+Also in index.html - needed to move the h2 and fun for everyone
+outside the flex areas.  Moved down to line 122.
+
+Take a look and if anything maybe a bit more space need with gap but
+alot closer to what you were envisioning.
+
+Additional resource to review if curious -
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Attached is your work called Lab 04 Work B in a zip.
+
+See you on Wednesday!  Enjoy the breezes.
+ddd
+
+
+
+
+-->
+
